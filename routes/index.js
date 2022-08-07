@@ -12,7 +12,6 @@ const router = express.Router();
 //   res.send("/");
 // });
 
-//HTTP req...get, post , delete is implemented....
 router.get("/products", getProducts);
 
 router.post("/products/create", createProduct);
